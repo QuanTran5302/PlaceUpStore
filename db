@@ -1,0 +1,280 @@
+          // admin:  username: quantaph14262  password:123456
+            INSERT INTO `datn_ud11`.`material` (`name`, `status`) VALUES ('Calfskin', '1');
+			INSERT INTO `datn_ud11`.`material` (`name`, `status`) VALUES ('Boxcalf', '1');
+			INSERT INTO `datn_ud11`.`material` (`name`, `status`) VALUES ('Cowhide', '1');
+			INSERT INTO `datn_ud11`.`material` (`name`, `status`) VALUES ('Bullhide ', '1');
+			INSERT INTO `datn_ud11`.`material` (`name`, `status`) VALUES ('Pigskin', '1');
+			INSERT INTO `datn_ud11`.`material` (`name`, `status`) VALUES ('Suede', '1');
+			INSERT INTO `datn_ud11`.`material` (`name`, `status`) VALUES ('Chamois', '1');
+			INSERT INTO `datn_ud11`.`material` (`name`, `status`) VALUES ('Nubuck', '1');
+			INSERT INTO `datn_ud11`.`material` (`name`, `status`) VALUES ('Cordovan', '1');
+			INSERT INTO `datn_ud11`.`material` (`name`, `status`) VALUES ('Shell cordovan', '1');
+
+			INSERT INTO `datn_ud11`.`categories` (`name`, `status`, `type`) VALUES ('Derby', '1', '1');
+			INSERT INTO `datn_ud11`.`categories` (`name`, `status`, `type`) VALUES ('Oxford ', '1', '1');
+			INSERT INTO `datn_ud11`.`categories` (`name`, `status`, `type`) VALUES ('Chelsea Boot', '1', '1');
+			INSERT INTO `datn_ud11`.`categories` (`name`, `status`, `type`) VALUES ('Apron Toe', '1', '1');
+			INSERT INTO `datn_ud11`.`categories` (`name`, `status`, `type`) VALUES ('Horsebit Loafer', '1', '1');
+
+
+			INSERT INTO `datn_ud11`.`designs` (`name`, `status`) VALUES ('Moda Masculina', '1');
+			INSERT INTO `datn_ud11`.`designs` (`name`, `status`) VALUES ('Business Casual', '1');
+			INSERT INTO `datn_ud11`.`designs` (`name`, `status`) VALUES ('Wedding Shoes', '1');
+			INSERT INTO `datn_ud11`.`designs` (`name`, `status`) VALUES ('Cap Toe', '1');
+			INSERT INTO `datn_ud11`.`designs` (`name`, `status`) VALUES ('Loafer Shoes', '1');
+			INSERT INTO `datn_ud11`.`designs` (`name`, `status`) VALUES ('Groom Shoes', '1');
+			INSERT INTO `datn_ud11`.`designs` (`name`, `status`) VALUES ('Festa Junina', '1');
+
+
+			INSERT INTO `datn_ud11`.`size` (`name`, `status`) VALUES ('Size 38', '1');
+			INSERT INTO `datn_ud11`.`size` (`name`, `status`) VALUES ('Size 39', '1');
+			INSERT INTO `datn_ud11`.`size` (`name`, `status`) VALUES ('Size 40', '1');
+			INSERT INTO `datn_ud11`.`size` (`name`, `status`) VALUES ('Size 41', '1');
+			INSERT INTO `datn_ud11`.`size` (`name`, `status`) VALUES ('Size 42', '1');
+
+			INSERT INTO `datn_ud11`.`color` (`name`, `status`) VALUES ('Black', '1');
+			INSERT INTO `datn_ud11`.`color` (`name`, `status`) VALUES ('Brown', '1');
+			INSERT INTO `datn_ud11`.`color` (`name`, `status`) VALUES ('Grey', '1');
+			INSERT INTO `datn_ud11`.`color` (`name`, `status`) VALUES ('White', '1');
+			INSERT INTO `datn_ud11`.`color` (`name`, `status`) VALUES ('Red', '1');
+            INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('722086702', ' Derby Calfskin Moda Masculina Black Size 38', '1200000.00', '130', '1', '1', '1', '1', '1', '1');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('647228860', ' Derby Cowhide Wedding Shoes Black Size 39', '1000000.00', '200', '1', '1', '1', '3', '3', '2');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('43408858', ' Derby Bullhide  Cap Toe Grey Size 40', '1250000.00', '200', '1', '1', '3', '4', '4', '3');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('949462682', ' Derby Cowhide Cap Toe Grey Size 40', '1200000.00', '250', '1', '1', '3', '4', '3', '3');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('980448260', ' Derby Calfskin Cap Toe Grey Size 39', '1350000.00', '150', '1', '1', '3', '4', '1', '2');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('387414469', ' Derby Bullhide  Moda Masculina Grey Size 40', '1400000.00', '124', '1', '1', '3', '1', '4', '3');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('242850250', ' Derby Cowhide Moda Masculina Brown Size 38', '1450000.00', '146', '1', '1', '2', '1', '3', '1');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('357495948', ' Derby Bullhide  Moda Masculina Brown Size 38', '1230000.00', '290', '1', '1', '2', '1', '4', '1');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('152800073', ' Derby Calfskin Wedding Shoes Black Size 38', '1000000.00', '90', '1', '1', '1', '3', '1', '1');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('678924666', ' Oxford  Shell cordovan Festa Junina Red Size 42', '1100000.00', '250', '1', '2', '5', '7', '10', '5');
+            INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('216841633', ' Oxford  Cordovan Festa Junina Red Size 41', '1400000.00', '221', '1', '2', '5', '7', '9', '4');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('138645098', ' Oxford  Nubuck Groom Shoes Red Size 42', '1100000.00', '111', '1', '2', '5', '6', '8', '5');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('809955680', ' Oxford  Nubuck Loafer Shoes Red Size 41', '1110000.00', '222', '1', '2', '5', '5', '8', '4');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('370013911', ' Oxford  Nubuck Groom Shoes Brown Size 41', '1200000.00', '100', '1', '2', '2', '6', '8', '4');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('29728229', ' Oxford  Shell cordovan Groom Shoes Black Size 40', '1250000.00', '600', '1', '2', '1', '6', '10', '3');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('914442476', ' Oxford  Nubuck Loafer Shoes Black Size 40', '1125000.00', '200', '1', '2', '1', '5', '8', '3');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('904057400', ' Chelsea Boot Pigskin Moda Masculina Black Size 40', '1500000.00', '100', '1', '3', '1', '1', '5', '3');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('422540171', ' Apron Toe Pigskin Loafer Shoes Brown Size 41', '1234000.00', '129', '1', '4', '2', '5', '5', '4');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('921775391', ' Horsebit Loafer Shell cordovan Groom Shoes Grey Size 39', '1250000.00', '200', '1', '5', '3', '6', '10', '2');
+
+
+
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('12649774', ' Chelsea Boot Nubuck Loafer Shoes Grey Size 41', '1350000', '200', '1', '3', '3', '5', '8', '4');
+            INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('585622472', ' Oxford  Cordovan Loafer Shoes Black Size 40', '1240000', '150', '1', '2', '1', '5', '9', '3');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('418628883', ' Oxford  Shell cordovan Loafer Shoes Black Size 40', '1140000', '100', '1', '2', '1', '5', '10', '3');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('433956983', ' Oxford  Nubuck Groom Shoes Black Size 40', '1420000', '140', '1', '2', '1', '6', '8', '3');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('376443559', ' Oxford  Cordovan Groom Shoes Black Size 40', '1220000', '123', '1', '2', '1', '6', '9', '3');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('843569039', ' Oxford  Cordovan Loafer Shoes Black Size 41', '1000000', '244', '1', '2', '1', '5', '9', '4');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('512685631', ' Oxford  Nubuck Festa Junina Red Size 42', '1210000', '168', '1', '2', '5', '7', '8', '5');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('143120735', ' Oxford  Cordovan Festa Junina Red Size 42', '1310000', '100', '1', '2', '5', '7', '9', '5');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('315275115', ' Oxford  Shell cordovan Festa Junina Brown Size 42', '1210000', '266', '1', '2', '2', '7', '10', '5');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('362209430', ' Oxford  Cordovan Festa Junina Brown Size 42', '1400000', '133', '1', '2', '2', '7', '9', '5');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('431283174', ' Oxford  Nubuck Festa Junina Brown Size 42', '1110000', '277', '1', '2', '2', '7', '8', '5');
+            INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('796990913', ' Oxford  Cordovan Festa Junina Brown Size 41', '1230000', '100', '1', '2', '2', '7', '9', '4');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('672518344', ' Oxford  Shell cordovan Festa Junina Brown Size 41', '1210000', '388', '1', '2', '2', '7', '10', '4');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('127109568', ' Oxford  Shell cordovan Festa Junina Brown Size 40', '1410000', '234', '1', '2', '2', '7', '10', '3');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('951597754', ' Oxford  Nubuck Loafer Shoes Brown Size 40', '1320000', '100', '1', '2', '2', '5', '8', '3');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('393151216', ' Oxford  Nubuck Loafer Shoes Brown Size 41', '1220000', '68', '1', '1', '2', '5', '8', '4');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('47842551', ' Derby Cowhide Moda Masculina Black Size 38', '1190000', '99', '1', '1', '1', '1', '3', '1');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('907281881', ' Derby Cowhide Moda Masculina Black Size 39', '1190000', '46', '1', '1', '1', '1', '3', '2');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('270527168', ' Derby Calfskin Cap Toe Black Size 38', '1130000', '79', '1', '1', '1', '4', '1', '1');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('446342472', ' Derby Calfskin Cap Toe Black Size 39', '1120000', '100', '1', '1', '1', '4', '1', '2');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('352558736', ' Derby Cowhide Cap Toe Brown Size 39', '1110000', '200', '1', '1', '2', '4', '3', '2');
+            INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('716430952', ' Derby Cowhide Cap Toe Brown Size 40', '1120000', '466', '1', '1', '2', '4', '3', '3');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('786556073', ' Derby Bullhide  Cap Toe Brown Size 40', '1130000', '244', '1', '1', '2', '4', '4', '3');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('689819308', ' Derby Bullhide  Cap Toe Brown Size 39', '1120000', '111', '1', '1', '2', '4', '4', '2');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('121234901', ' Derby Bullhide  Wedding Shoes Brown Size 39', '1210000', '114', '1', '1', '2', '3', '4', '2');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('87135661', ' Derby Bullhide  Wedding Shoes Brown Size 38', '1310000', '233', '1', '1', '2', '3', '4', '1');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('882684852', ' Chelsea Boot Boxcalf Loafer Shoes Brown Size 40', '1120000', '444', '1', '3', '2', '5', '2', '3');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('265073842', ' Apron Toe Bullhide  Wedding Shoes Brown Size 38', '1140000', '222', '1', '4', '2', '3', '4', '1');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('238699973', ' Apron Toe Bullhide  Wedding Shoes Brown Size 39', '1120000', '331', '1', '4', '2', '3', '4', '2');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('44862118', ' Horsebit Loafer Calfskin Cap Toe Black Size 40', '1150000', '112', '1', '5', '1', '4', '1', '3');
+			INSERT INTO `datn_ud11`.`products` (`barcode`, `name`, `price`, `quantity`, `status`, `id_category`, `id_color`, `id_design`, `id_material`, `id_size`) VALUES ('101917040', ' Horsebit Loafer Calfskin Cap Toe Black Size 39', '1120000', '113', '1', '5', '1', '4', '1', '2');
+
+
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692555622/luy9kt7yl2cddge4gwcu.png', '1');
+            INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692110346/vy39ivcukm5iqfqbra9a.jpg', '2');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692558060/yfawsbvpddtcvotrty2l.webp', '3');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692110562/lwu1srcpydo3sgnc2ivt.webp', '4');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692110907/shaorvbgdpf1rbbfju1o.webp', '5');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692111149/wqsoww4nmbu4p9bp0ccz.jpg', '6');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692556694/rcvp3a1xbxh8ox29sqf4.jpg', '7');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692112114/ncnnqxyicufyrtbuzzkz.webp', '8');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692555662/v58vl8lbhbpcjo28jzmu.jpg', '9');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692558113/feh1hyf8irgh2jzafv2o.webp', '10');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692113039/zoq2myqosqoh5kpmbecj.jpg', '11');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692113085/gi9sjgdxiwq7d8cgi8yg.webp', '12');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692113179/vk5noxsb2vir73brabt9.jpg', '13');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692556713/zp1zayohwb4sllpqxo9m.webp', '14');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692555687/mznwb8c1dsngu4w3jlfz.jpg', '15');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692555712/dz7ul1ajh8s3ujypj2ll.webp', '16');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692114162/lizpvn73ae6tc9fdq9zt.jpg', '17');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692556729/wn8qtnaklws9aqiyihug.jpg', '18');
+            INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692558100/o2dlzs85pa7g1xhmwhmh.jpg', '19');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692114550/r8vc0rcblqyndzz6dqm9.webp', '20');
+
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692151696/snitishatj2ftkpnj5wn.webp', '21');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692151737/hlterpgi7qseiuou908a.webp', '22');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692166182/s0sptetclcgxlievncji.jpg', '23');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692166232/vnewgatnmstoputpplaw.jpg', '24');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692174968/fo3mpduvjid61ewptqib.jpg', '25');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692175448/saja2hkbrvnlhi534rlm.webp', '26');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692175509/etmmkbt5cvmpu2plegxs.jpg', '27');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692175607/vdxx9o1a2vlr1uqbzcyt.webp', '28');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692175654/rc6knqjjocssfk5vtaug.jpg', '29');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692556745/szm1guw4f9wvzs7elcdz.webp', '30');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692175734/ehmskwkb2xk9tuhlnx78.jpg', '31');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692175874/ndaiusjdc51aj4z6m01z.webp', '32');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692175906/hene4frc57jwwbzhvpjt.webp', '33');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692556760/zcoc1zcrhjhjvca9lxys.jpg', '34');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692556760/zcoc1zcrhjhjvca9lxys.jpg', '35');
+            INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692176618/xeyfm1lda4jcmbnozdvh.jpg', '36');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692176627/frclaqffptbra6j5er1b.jpg', '37');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692176840/r74iotqgn91el4shswii.webp', '38');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692176851/kg0yd1lonj7wukdqe9g3.webp', '39');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692556774/adxduamtmagj0boylbpk.jpg', '40');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692556774/adxduamtmagj0boylbpk.jpg', '41');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692177457/lnc0befuupfvou4aecip.jpg', '42');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692177473/hjlu502gd51r91l4dmmb.jpg', '43');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692177901/dysjpsja5fdsbtqdvkfy.webp', '44');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692177913/opelq1ra8arprwia2mjk.webp', '45');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692177993/uzzobdwcpevzvqoi7coy.webp', '46');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692178038/x3j33ynyezfswvqnkgjo.webp', '47');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692178086/qobc9foimwvhqosmt9zr.webp', '48');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692178131/w3umof1coi3yayrxpoms.jpg', '49');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_products`) VALUES ('https://res.cloudinary.com/dcll6yp9s/image/upload/v1692178147/pvq9hkmoid7tydqtzfik.jpg', '50');
+
+
+
+
+			INSERT INTO `datn_ud11`.`role` (`name`) VALUES ('ROLE_STAFF');
+			INSERT INTO `datn_ud11`.`role` (`name`) VALUES ('ROLE_ADMIN');
+			INSERT INTO `datn_ud11`.`role` (`name`) VALUES ('ROLE_USER');
+			INSERT INTO `datn_ud11`.`role` (`name`) VALUES ('ROLE_GUEST');
+            INSERT INTO `datn_ud11`.`account` (`username`, `date`, `email`, `full_name`, `password`, `phone`, `sex`, `status`, `address_id`) VALUES ('quantaph14262', '2023-07-15 17:40:55', 'quantaph14262@fpt.edu.vn', 'Trần Anh Quân', '$2a$10$/DmxmvpC9A9gMFfSTIaHTuvkCVkWptJr0vvAiI.5Qkdo/DcuFL0QW', '0369495617', 1, '1', '1');
+			INSERT INTO `datn_ud11`.`account` (`username`, `date`, `email`, `full_name`, `password`, `phone`, `sex`, `status`, `address_id`) VALUES ('huyenle', '2023-07-15 17:46:01', 'huyenle@gmail.com', 'Lê Thị Huyền', '$2a$10$xHJC1NZSF8BxlI.9BKGRyOrqrC1wQqlMSlQmzIyZQUuCIENeUUV1C', '0386500358', 1, '1', '2');
+			INSERT INTO `datn_ud11`.`account` (`username`, `date`, `email`, `full_name`, `password`, `phone`, `sex`, `status`, `address_id`) VALUES ('quynguyen43', '2023-06-15 17:52:42', 'quynguyen@gmail.com', 'Nguyễn Văn Quý', '$2a$10$.P74CJ6x9aEAFaYJy/qE2.swSWoh54FQkC8O.g6M8XT5.0zxsocKu', '0369445612', 1, '1', '3');
+			INSERT INTO `datn_ud11`.`account` (`username`, `date`, `email`, `full_name`, `password`, `phone`, `sex`, `status`, `address_id`) VALUES ('thaoanh02', '2023-08-15 18:04:04', 'thaoanh02@gmail.com', 'Nguyễn Thảo Anh', '$2a$10$l8C7Yhdf63kxSnN8/Elc9OBt45Ac4tWAiTokWEFIU83uGMcxlEPbu', '0356183945', 0, '1', '4');
+			INSERT INTO `datn_ud11`.`account` (`username`, `date`, `email`, `full_name`, `password`, `phone`, `sex`, `status`, `address_id`) VALUES ('duccuong', '2023-08-15 18:10:29', 'cuongduc@gmail.com', 'Nguyễn Đức Cường', '$2a$10$QMQUSFlXbIUELJLY9rxocO1ZX0HzMCL/SxZsMOK9nmH01iqh9FerC', '0352575133', 1, '1', '5');
+			INSERT INTO `datn_ud11`.`account` (`username`, `date`, `email`, `full_name`, `password`, `phone`, `sex`, `status`, `address_id`) VALUES ('maihoa', '2023-05-15 18:12:39', 'hoamai@gmail.com', 'Mai Thị Hoa', '$2a$10$GaRWrnyb5t4OZ46vUHmdHOLkJyuzb84/e7L75EAT2.7cbA3pmg8eK', '0345621845', 0, '1', '6');
+			INSERT INTO `datn_ud11`.`account` (`username`, `date`, `email`, `full_name`, `password`, `phone`, `sex`, `status`, `address_id`) VALUES ('duongnguyen', '2023-04-15 18:29:00', 'duongntph16227@fpt.edu.vn', 'Nguyễn Tùng Dương', '$2a$10$jWx/Aqrf22szmcIPU2bciuZBrseK/1BzGRaYgd21qv/qvPPsCQD.C', '0367281945', 1, '1', '7');
+			INSERT INTO `datn_ud11`.`account` (`username`, `date`, `email`, `full_name`, `password`, `phone`, `sex`, `status`, `address_id`) VALUES ('hiepnguyen', '2023-03-15 18:30:39', 'hiepndhph14262@fpt.edu.vn', 'Nguyễn Đức Hoàng Hiệp', '$2a$10$tXPwNPb5jdZjVD/GxEQjvugGI1F/a0.mK0fQwqQdS5ujS1W1zikuO', '0353247851', 1, '1', '8');
+			INSERT INTO `datn_ud11`.`account` (`username`, `date`, `email`, `full_name`, `password`, `phone`, `sex`, `status`, `address_id`) VALUES ('theanh96', '2023-02-15 18:33:28', 'theanh96@gmail.com', 'Mai Thế Anh', '$2a$10$hKLTDCU0sWGMTYxcWsSVLu6utzBOfuPEG2SeP7vlFZT6UHc/Lsl1S', '0956718353', 1, '1', '9');
+            INSERT INTO `datn_ud11`.`account` (`username`, `date`, `email`, `full_name`, `password`, `phone`, `sex`, `status`, `address_id`) VALUES ('longvu', '2023-01-15 18:34:46', 'longvu@gmail.com', 'Vũ Văn Long', '$2a$10$.dajdpGI8DEqY/9A45ILhuy9Z03iztevx7JWhzrdz2v4ZZW96eawe', '0362618346', 1, '1', '10');
+
+			INSERT INTO `datn_ud11`.`author` (`username`, `id_role`) VALUES ('quantaph14262', '2');
+			INSERT INTO `datn_ud11`.`author` (`username`, `id_role`) VALUES ('huyenle', '3');
+			INSERT INTO `datn_ud11`.`author` (`username`, `id_role`) VALUES ('quynguyen43', '1');
+			INSERT INTO `datn_ud11`.`author` (`username`, `id_role`) VALUES ('thaoanh02', '3');
+			INSERT INTO `datn_ud11`.`author` (`username`, `id_role`) VALUES ('duccuong', '3');
+			INSERT INTO `datn_ud11`.`author` (`username`, `id_role`) VALUES ('maihoa', '3');
+			INSERT INTO `datn_ud11`.`author` (`username`, `id_role`) VALUES ('duongnguyen', '2');
+			INSERT INTO `datn_ud11`.`author` (`username`, `id_role`) VALUES ('hiepnguyen', '2');
+			INSERT INTO `datn_ud11`.`author` (`username`, `id_role`) VALUES ('theanh96', '1');
+			INSERT INTO `datn_ud11`.`author` (`username`, `id_role`) VALUES ('longvu', '1');
+
+
+			INSERT INTO `datn_ud11`.`address` (`address_detail`, `address_take`, `district`, `id_district`, `person_take`, `phone_take`, `province`, `id_province`, `ward`, `id_ward`, `username`) VALUES ('Phú Thứ', 'Xã Vũ Hội, Huyện Vũ Thư, Thái Bình', 'Huyện Vũ Thư', '1716', 'Trần Anh Quân', '0369495617', 'Thái Bình', '226', 'Xã Vũ Hội', '260526', 'quantaph14262');
+			INSERT INTO `datn_ud11`.`address` (`address_detail`, `address_take`, `district`, `id_district`, `person_take`, `phone_take`, `province`, `id_province`, `ward`, `id_ward`, `username`) VALUES ('Số 123 Lê Lợi', 'Xã Giao Hà, Huyện Giao Thủy, Nam Định', 'Huyện Giao Thủy', '3193', 'Lê Thị Huyền', '0386500358', 'Nam Định', '231', 'Xã Giao Hà', '250407', 'huyenle');
+			INSERT INTO `datn_ud11`.`address` (`address_detail`, `address_take`, `district`, `id_district`, `person_take`, `phone_take`, `province`, `id_province`, `ward`, `id_ward`, `username`) VALUES ('Lê Đức Thọ', 'Xã Đào Viên, Huyện Quế Võ, Bắc Ninh', 'Huyện Quế Võ', '1728', 'Nguyễn Văn Quý', '0369445612', 'Bắc Ninh', '249', 'Xã Đào Viên', '190308', 'quynguyen43');
+			INSERT INTO `datn_ud11`.`address` (`address_detail`, `address_take`, `district`, `id_district`, `person_take`, `phone_take`, `province`, `id_province`, `ward`, `id_ward`, `username`) VALUES ('Số 235', 'Xã Thanh Bình, Huyện Thanh Liêm, Hà Nam', 'Huyện Thanh Liêm', '2027', 'Nguyễn Thảo Anh', '0356183945', 'Hà Nam', '232', 'Xã Thanh Bình', '240507', 'thaoanh02');
+            INSERT INTO `datn_ud11`.`address` (`address_detail`, `address_take`, `district`, `id_district`, `person_take`, `phone_take`, `province`, `id_province`, `ward`, `id_ward`, `username`) VALUES ('Số 214', 'Xã Long Phú, Thị xã Long Mỹ, Hậu Giang', 'Thị xã Long Mỹ', '3218', 'Nguyễn Đức Cường Đức Cường22', '0352575133', 'Hậu Giang', '250', 'Xã Long Phú', '640806', 'duccuong');
+			INSERT INTO `datn_ud11`.`address` (`address_detail`, `address_take`, `district`, `id_district`, `person_take`, `phone_take`, `province`, `id_province`, `ward`, `id_ward`, `username`) VALUES ('Số 551', 'Xã Tam Giang Tây, Huyện Ngọc Hiển, Cà Mau', 'Huyện Ngọc Hiển', '2186', 'Mai Thị Hoa', '0345621845', 'Cà Mau', '252', 'Xã Tam Giang Tây', '610703', 'maihoa');
+			INSERT INTO `datn_ud11`.`address` (`address_detail`, `address_take`, `district`, `id_district`, `person_take`, `phone_take`, `province`, `id_province`, `ward`, `id_ward`, `username`) VALUES ('Số 112', 'Xã Đông Thọ, Huyện Yên Phong, Bắc Ninh', 'Huyện Yên Phong', '1768', 'Nguyễn Tùng Dương', '0367281945', 'Bắc Ninh', '249', 'Xã Đông Thọ', '190203', 'duongnguyen');
+			INSERT INTO `datn_ud11`.`address` (`address_detail`, `address_take`, `district`, `id_district`, `person_take`, `phone_take`, `province`, `id_province`, `ward`, `id_ward`, `username`) VALUES ('Số 882', 'Xã Lãng Sơn, Huyện Yên Dũng, Bắc Giang', 'Huyện Yên Dũng', '1764', 'Nguyễn Đức Hoàng Hiệp', '0353247851', 'Bắc Giang', '248', 'Xã Lãng Sơn', '181008', 'hiepnguyen');
+			INSERT INTO `datn_ud11`.`address` (`address_detail`, `address_take`, `district`, `id_district`, `person_take`, `phone_take`, `province`, `id_province`, `ward`, `id_ward`, `username`) VALUES ('Số 772', 'Xã Tân Xuân, Huyện Vân Hồ, Sơn La', 'Huyện Vân Hồ', '2255', 'Mai Thế Anh', '0956718353', 'Sơn La', '266', 'Xã Tân Xuân', '141211', 'theanh96');
+			INSERT INTO `datn_ud11`.`address` (`address_detail`, `address_take`, `district`, `id_district`, `person_take`, `phone_take`, `province`, `id_province`, `ward`, `id_ward`, `username`) VALUES ('Số 321', 'Xã Đình Tổ, Huyện Thuận Thành, Bắc Ninh', 'Huyện Thuận Thành', '1767', 'Vũ Văn Long', '0362618346', 'Bắc Ninh', '249', 'Xã Đình Tổ', '190604', 'longvu');
+
+
+			INSERT INTO `datn_ud11`.`bill` (`address`, `create_date`, `description`, `money_ship`, `person_take`, `phone_take`, `status`, `status_buy`, `time_receive`, `total_money`, `type_payment`, `username`) VALUES ('Mua trực tiếp tại cửa hàng', '2023-08-16 20:41:59', 'Không có ghi chú', '0.00', 'Trần Anh Quân',  '0369495617', '4', '1','2023-08-16 20:41:59', '21520000.00', 1, 'quantaph14262');
+            INSERT INTO `datn_ud11`.`bill` (`address`, `create_date`, `description`, `money_ship`, `person_take`, `phone_take`, `status`, `status_buy`, `time_receive`, `total_money`, `type_payment`, `username`) VALUES ('Mua trực tiếp tại cửa hàng', '2023-08-16 20:41:59', 'Không có ghi chú', '0.00', 'Lê Thị Huyền',  '0386500358', '4', '1','2023-08-16 20:41:59', '26400000.00', 1, 'huyenle');
+			INSERT INTO `datn_ud11`.`bill` (`address`, `create_date`, `description`, `money_ship`, `person_take`, `phone_take`, `status`, `status_buy`, `time_receive`, `total_money`, `type_payment`, `username`) VALUES ('Mua trực tiếp tại cửa hàng', '2023-08-16 20:41:59', 'Không có ghi chú', '0.00', 'Nguyễn Văn Quý',  '0369445612', '4', '1', '2023-08-16 20:41:59', '27000000.00', 1, 'quynguyen43');
+			INSERT INTO `datn_ud11`.`bill` (`address`, `create_date`, `description`, `money_ship`, `person_take`, `phone_take`, `status`, `status_buy`, `time_receive`, `total_money`, `type_payment`, `username`) VALUES ('Mua trực tiếp tại cửa hàng', '2023-08-16 20:41:59', 'Không có ghi chú', '0.00', 'Nguyễn Thảo Anh',  '0356183945', '4', '1','2023-08-16 20:41:59', '17550000.00', 1, 'thaoanh02');
+			INSERT INTO `datn_ud11`.`bill` (`address`, `create_date`, `description`, `money_ship`, `person_take`, `phone_take`, `status`, `status_buy`, `time_receive`, `total_money`, `type_payment`, `username`) VALUES ('Mua trực tiếp tại cửa hàng', '2023-08-16 20:41:59', 'Không có ghi chú', '0.00', 'Nguyễn Đức Cường',  '0352575133', '4', '1','2023-08-16 20:41:59', '24310000.00', 1, 'duccuong');
+			INSERT INTO `datn_ud11`.`bill` (`address`, `create_date`, `description`, `money_ship`, `person_take`, `phone_take`, `status`, `status_buy`, `time_receive`, `total_money`, `type_payment`, `username`) VALUES ('Mua trực tiếp tại cửa hàng', '2023-08-16 20:41:59', 'Không có ghi chú', '0.00', 'Mai Thị Hoa',  '0345621845', '4', '1','2023-08-16 20:41:59', '27820000.00', 1, 'maihoa');
+			INSERT INTO `datn_ud11`.`bill` (`address`, `create_date`, `description`, `money_ship`, `person_take`, `phone_take`, `status`, `status_buy`, `time_receive`, `total_money`, `type_payment`, `username`) VALUES ('Mua trực tiếp tại cửa hàng', '2023-01-16 20:41:59', 'Không có ghi chú', '0.00', 'Nguyễn Tùng Dương',  '0367281945', '4', '1', '2023-01-17 20:41:59', '25460000.00', 1, 'duongnguyen');
+			INSERT INTO `datn_ud11`.`bill` (`address`, `create_date`, `description`, `money_ship`, `person_take`, `phone_take`, `status`, `status_buy`, `time_receive`, `total_money`, `type_payment`, `username`) VALUES ('Mua trực tiếp tại cửa hàng', '2023-05-16 20:41:59', 'Không có ghi chú', '0.00', 'Nguyễn Đức Hoàng Hiệp',  '0353247851', '4', '1', '2023-05-16 20:41:59', '23100000.00', 1, 'hiepnguyen');
+            INSERT INTO `datn_ud11`.`bill` (`address`, `create_date`, `description`, `money_ship`, `person_take`, `phone_take`, `status`, `status_buy`, `time_receive`, `total_money`, `type_payment`, `username`) VALUES ('Mua trực tiếp tại cửa hàng', '2023-06-16 20:41:59', 'Không có ghi chú', '0.00', 'Mai Thế Anh',  '0956718353', '4', '1', '2023-06-16 20:41:59', '24500000.00', 1, 'theanh96');
+			INSERT INTO `datn_ud11`.`bill` (`address`, `create_date`, `description`, `money_ship`, `person_take`, `phone_take`, `status`, `status_buy`, `time_receive`, `total_money`, `type_payment`, `username`) VALUES ('Mua trực tiếp tại cửa hàng', '2023-07-16 20:41:59', 'Không có ghi chú', '0.00', 'Vũ Văn Long',  '0362618346', '4', '1','2023-07-17 20:41:59', '20080000.00', 1, 'longvu');
+			INSERT INTO `datn_ud11`.`bill` (`address`, `create_date`, `description`, `money_ship`, `person_take`, `phone_take`, `status`, `status_buy`, `time_receive`, `total_money`, `type_payment`, `username`) VALUES ('Phú Thứ, Xã Vũ Hội, Huyện Vũ Thư, Thái Bình', '2022-10-16 21:11:51', 'Không có ghi chú', '63000.00', 'Trần Anh Quân',  '0369495617', '1', '0', '2022-10-17 21:11:51', '10063000.00', 0, 'quantaph14262');
+			INSERT INTO `datn_ud11`.`bill` (`address`, `create_date`, `description`, `money_ship`, `person_take`, `phone_take`, `status`, `status_buy`, `time_receive`, `total_money`, `type_payment`, `username`) VALUES ('Phú Thứ, Xã Vũ Hội, Huyện Vũ Thư, Thái Bình', '2022-11-16 21:12:24', 'Không có ghi chú', '86700.00', 'Trần Anh Quân',  '0369495617', '1', '0', '2022-11-17 21:12:24', '11426700.00', 1, 'quantaph14262');
+			INSERT INTO `datn_ud11`.`bill` (`address`, `create_date`, `description`, `money_ship`, `person_take`, `phone_take`, `status`, `status_buy`, `time_receive`, `total_money`, `type_payment`, `username`) VALUES ('Số 123 Lê Lợi, Xã Giao Hà, Huyện Giao Thủy, Nam Định', '2022-12-16 21:13:39', 'Không có ghi chú', '77150.00', 'Lê Thị Huyền',  '0386500358', '1', '0', '2022-12-17 21:13:39', '9507150.00', 0, 'huyenle');
+			INSERT INTO `datn_ud11`.`bill` (`address`, `create_date`, `description`, `money_ship`, `person_take`, `phone_take`, `status`, `status_buy`, `time_receive`, `total_money`, `type_payment`, `username`) VALUES ('Số 123 Lê Lợi, Xã Giao Hà, Huyện Giao Thủy, Nam Định', '2023-02-16 21:14:38', 'Không có ghi chú', '76400.00', 'Lê Thị Huyền',  '0386500358', '1', '0', '2023-02-17 21:14:38', '9356400.00', 1, 'huyenle');
+			INSERT INTO `datn_ud11`.`bill` (`address`, `create_date`, `description`, `money_ship`, `person_take`, `phone_take`, `status`, `status_buy`, `total_money`, `type_payment`, `username`) VALUES ('Số 112, Xã Đông Thọ, Huyện Yên Phong, Bắc Ninh', '2023-02-16 21:16:14', 'Không có ghi chú', '90000.00', 'Nguyễn Tùng Dương',  '0367281945', '5', '0','0.00', 0, 'duongnguyen');
+            INSERT INTO `datn_ud11`.`bill` (`address`, `create_date`, `description`, `money_ship`, `person_take`, `phone_take`, `status`, `status_buy`, `time_receive`, `total_money`, `type_payment`, `username`) VALUES ('Số 112, Xã Đông Thọ, Huyện Yên Phong, Bắc Ninh', '2023-03-16 21:24:15', 'Không có ghi chú', '99850.00', 'Nguyễn Tùng Dương',  '0367281945', '2', '0', '2023-03-17 21:24:15', '14069850.00', 1, 'duongnguyen');
+			INSERT INTO `datn_ud11`.`bill` (`address`, `create_date`, `description`, `money_ship`, `person_take`, `phone_take`, `status`, `status_buy`, `time_receive`, `total_money`, `type_payment`, `username`) VALUES ('Số 321, Xã Đình Tổ, Huyện Thuận Thành, Bắc Ninh', '2023-04-16 21:25:25', 'Không có ghi chú', '102500.00', 'Vũ Văn Long',  '0362618346', '2', '0', '2023-04-17 21:25:25', '21152500.00', 1, 'longvu');
+			INSERT INTO `datn_ud11`.`bill` (`address`, `create_date`, `description`, `money_ship`, `person_take`, `phone_take`, `status`, `status_buy`, `time_receive`, `total_money`, `type_payment`, `username`) VALUES ('Số 321, Xã Đình Tổ, Huyện Thuận Thành, Bắc Ninh', '2023-05-16 21:26:17', 'Không có ghi chú', '84750.00', 'Vũ Văn Long',  '0362618346', '2', '0', '2023-05-17 21:26:17', '11034750.00', 0, 'longvu');
+			INSERT INTO `datn_ud11`.`bill` (`address`, `create_date`, `description`, `money_ship`, `person_take`, `phone_take`, `status`, `status_buy`, `time_receive`, `total_money`, `type_payment`, `username`) VALUES ('Số 882, Xã Lãng Sơn, Huyện Yên Dũng, Bắc Giang', '2023-06-16 21:27:45', 'Không có ghi chú', '79770.00', 'Nguyễn Đức Hoàng Hiệp',  '0353247851', '4', '0', '2023-06-17 08:26:06', '16175770.00', 0, 'hiepnguyen');
+			INSERT INTO `datn_ud11`.`bill` (`address`, `create_date`, `description`, `money_ship`, `person_take`, `phone_take`, `status`, `status_buy`, `time_receive`, `total_money`, `type_payment`, `username`) VALUES ('Số 882, Xã Lãng Sơn, Huyện Yên Dũng, Bắc Giang', '2023-07-16 21:28:25', 'Không có ghi chú', '58750.00', 'Nguyễn Đức Hoàng Hiệp',  '0353247851', '4', '0', '2023-07-18 21:28:25', '8108750.00', 1, 'hiepnguyen');
+
+
+			INSERT INTO `datn_ud11`.`bill_detail` (`description`, `price`, `quantity`, `status`, `id_bills`, `id_products`) VALUES ('Không có ghi chú', '1200000.00', '10', '3', '1', '1');
+			INSERT INTO `datn_ud11`.`bill_detail` (`description`, `price`, `quantity`, `status`, `id_bills`, `id_products`) VALUES ('Không có ghi chú', '1190000.00', '8', '3', '1', '36');
+			INSERT INTO `datn_ud11`.`bill_detail` (`description`, `price`, `quantity`, `status`, `id_bills`, `id_products`) VALUES ('Không có ghi chú', '1190000.00', '10', '3', '2', '36');
+			INSERT INTO `datn_ud11`.`bill_detail` (`description`, `price`, `quantity`, `status`, `id_bills`, `id_products`) VALUES ('Không có ghi chú', '1450000.00', '10', '3', '2', '7');
+            INSERT INTO `datn_ud11`.`bill_detail` (`description`, `price`, `quantity`, `status`, `id_bills`, `id_products`) VALUES ('Không có ghi chú', '1450000.00', '10', '2', '3', '7');
+			INSERT INTO `datn_ud11`.`bill_detail` (`description`, `price`, `quantity`, `status`, `id_bills`, `id_products`) VALUES ('Không có ghi chú', '1250000.00', '10', '2', '3', '15');
+			INSERT INTO `datn_ud11`.`bill_detail` (`description`, `price`, `quantity`, `status`, `id_bills`, `id_products`) VALUES ('Không có ghi chú', '1250000.00', '7', '2', '4', '15');
+			INSERT INTO `datn_ud11`.`bill_detail` (`description`, `price`, `quantity`, `status`, `id_bills`, `id_products`) VALUES ('Không có ghi chú', '1100000.00', '8', '2', '4', '10');
+			INSERT INTO `datn_ud11`.`bill_detail` (`description`, `price`, `quantity`, `status`, `id_bills`, `id_products`) VALUES ('Không có ghi chú', '1100000.00', '9', '3', '5', '10');
+			INSERT INTO `datn_ud11`.`bill_detail` (`description`, `price`, `quantity`, `status`, `id_bills`, `id_products`) VALUES ('Không có ghi chú', '1310000.00', '10', '3', '5', '27');
+			INSERT INTO `datn_ud11`.`bill_detail` (`description`, `price`, `quantity`, `status`, `id_bills`, `id_products`) VALUES ('Không có ghi chú', '1310000.00', '12', '2', '6', '27');
+			INSERT INTO `datn_ud11`.`bill_detail` (`description`, `price`, `quantity`, `status`, `id_bills`, `id_products`) VALUES ('Không có ghi chú', '1210000.00', '10', '2', '6', '26');
+			INSERT INTO `datn_ud11`.`bill_detail` (`description`, `price`, `quantity`, `status`, `id_bills`, `id_products`) VALUES ('Không có ghi chú', '1210000.00', '11', '2', '7', '26');
+			INSERT INTO `datn_ud11`.`bill_detail` (`description`, `price`, `quantity`, `status`, `id_bills`, `id_products`) VALUES ('Không có ghi chú', '1350000.00', '9', '2', '7', '5');
+			INSERT INTO `datn_ud11`.`bill_detail` (`description`, `price`, `quantity`, `status`, `id_bills`, `id_products`) VALUES ('Không có ghi chú', '1350000.00', '8', '2', '8', '5');
+			INSERT INTO `datn_ud11`.`bill_detail` (`description`, `price`, `quantity`, `status`, `id_bills`, `id_products`) VALUES ('Không có ghi chú', '1200000.00', '7', '2', '8', '4');
+			INSERT INTO `datn_ud11`.`bill_detail` (`description`, `price`, `quantity`, `status`, `id_bills`, `id_products`) VALUES ('Không có ghi chú', '1200000.00', '9', '2', '9', '4');
+			INSERT INTO `datn_ud11`.`bill_detail` (`description`, `price`, `quantity`, `status`, `id_bills`, `id_products`) VALUES ('Không có ghi chú', '1250000.00', '11', '2', '9', '3');
+			INSERT INTO `datn_ud11`.`bill_detail` (`description`, `price`, `quantity`, `status`, `id_bills`, `id_products`) VALUES ('Không có ghi chú', '1110000.00', '10', '2', '10', '40');
+			INSERT INTO `datn_ud11`.`bill_detail` (`description`, `price`, `quantity`, `status`, `id_bills`, `id_products`) VALUES ('Không có ghi chú', '1120000.00', '12', '2', '10', '41');
+            INSERT INTO `datn_ud11`.`bill_detail` (`description`, `price`, `quantity`, `status`, `id_bills`, `id_products`) VALUES ('Không có ghi chú', '1200000.00', '10', '1', '11', '1');
+			INSERT INTO `datn_ud11`.`bill_detail` (`description`, `price`, `quantity`, `status`, `id_bills`, `id_products`) VALUES ('Không có ghi chú', '1000000.00', '8', '1', '11', '9');
+			INSERT INTO `datn_ud11`.`bill_detail` (`description`, `price`, `quantity`, `status`, `id_bills`, `id_products`) VALUES ('Không có ghi chú', '1125000.00', '9', '1', '12', '16');
+			INSERT INTO `datn_ud11`.`bill_detail` (`description`, `price`, `quantity`, `status`, `id_bills`, `id_products`) VALUES ('Không có ghi chú', '1140000.00', '9', '1', '12', '22');
+			INSERT INTO `datn_ud11`.`bill_detail` (`description`, `price`, `quantity`, `status`, `id_bills`, `id_products`) VALUES ('Không có ghi chú', '1100000.00', '7', '1', '13', '10');
+			INSERT INTO `datn_ud11`.`bill_detail` (`description`, `price`, `quantity`, `status`, `id_bills`, `id_products`) VALUES ('Không có ghi chú', '1310000.00', '8', '1', '13', '27');
+			INSERT INTO `datn_ud11`.`bill_detail` (`description`, `price`, `quantity`, `status`, `id_bills`, `id_products`) VALUES ('Không có ghi chú', '1100000.00', '9', '1', '14', '12');
+			INSERT INTO `datn_ud11`.`bill_detail` (`description`, `price`, `quantity`, `status`, `id_bills`, `id_products`) VALUES ('Không có ghi chú', '1220000.00', '10', '1', '14', '24');
+			INSERT INTO `datn_ud11`.`bill_detail` (`description`, `price`, `quantity`, `status`, `id_bills`, `id_products`) VALUES ('Không có ghi chú', '1500000.00', '1', '5', '15', '17');
+			INSERT INTO `datn_ud11`.`bill_detail` (`description`, `price`, `quantity`, `status`, `id_bills`, `id_products`) VALUES ('Không có ghi chú', '1100000.00', '12', '2', '15', '10');
+			INSERT INTO `datn_ud11`.`bill_detail` (`description`, `price`, `quantity`, `status`, `id_bills`, `id_products`) VALUES ('Không có ghi chú', '1210000.00', '9', '2', '16', '32');
+			INSERT INTO `datn_ud11`.`bill_detail` (`description`, `price`, `quantity`, `status`, `id_bills`, `id_products`) VALUES ('Không có ghi chú', '1400000.00', '8', '2', '16', '6');
+			INSERT INTO `datn_ud11`.`bill_detail` (`description`, `price`, `quantity`, `status`, `id_bills`, `id_products`) VALUES ('Không có ghi chú', '1250000.00', '9', '2', '17', '3');
+			INSERT INTO `datn_ud11`.`bill_detail` (`description`, `price`, `quantity`, `status`, `id_bills`, `id_products`) VALUES ('Không có ghi chú', '1100000.00', '16', '2', '17', '10');
+			INSERT INTO `datn_ud11`.`bill_detail` (`description`, `price`, `quantity`, `status`, `id_bills`, `id_products`) VALUES ('Không có ghi chú', '1310000.00', '12', '2', '18', '27');
+			INSERT INTO `datn_ud11`.`bill_detail` (`description`, `price`, `quantity`, `status`, `id_bills`, `id_products`) VALUES ('Không có ghi chú', '1500000.00', '11', '2', '18', '17');
+            INSERT INTO `datn_ud11`.`bill_detail` (`description`, `price`, `quantity`, `status`, `id_bills`, `id_products`) VALUES ('Không có ghi chú', '1234000.00', '13', '2', '19', '18');
+			INSERT INTO `datn_ud11`.`bill_detail` (`description`, `price`, `quantity`, `status`, `id_bills`, `id_products`) VALUES ('Không có ghi chú', '1220000.00', '20', '2', '19', '35');
+			INSERT INTO `datn_ud11`.`bill_detail` (`description`, `price`, `quantity`, `status`, `id_bills`, `id_products`) VALUES ('Không có ghi chú', '1150000.00', '13', '2', '20', '49');
+
+
+			INSERT INTO `datn_ud11`.`change_product` (`date_change`, `description`, `email`, `phone`, `quantity_product_change`, `status`, `username`, `id_bill_detail`) VALUES ('2023-08-17 08:32:36', 'Sai Kiểu dáng', 'quantaph14262@fpt.edu.vn', '0369495617', '4', '1', 'quantaph14262', '1');
+			INSERT INTO `datn_ud11`.`change_product` (`date_change`, `description`, `email`, `phone`, `quantity_product_change`, `status`, `username`, `id_bill_detail`) VALUES ('2023-08-17 08:33:32', 'Sai màu', 'quantaph14262@fpt.edu.vn', '0369495617', '3', '1', 'quantaph14262', '2');
+			INSERT INTO `datn_ud11`.`change_product` (`date_change`, `description`, `email`, `phone`, `quantity_product_change`, `status`, `username`, `id_bill_detail`) VALUES ('2023-08-17 08:34:19', 'Sai thể Loại', 'huyenle@gmail.com', '0386500358', '2', '1', 'huyenle', '3');
+			INSERT INTO `datn_ud11`.`change_product` (`date_change`, `description`, `email`, `phone`, `quantity_product_change`, `status`, `username`, `id_bill_detail`) VALUES ('2023-08-17 08:34:54', 'Giày hỏng', 'huyenle@gmail.com', '0386500358', '5', '1', 'huyenle', '4');
+			INSERT INTO `datn_ud11`.`change_product` (`date_change`, `description`, `email`, `phone`, `quantity_product_change`, `status`, `username`, `id_bill_detail`) VALUES ('2023-08-17 08:36:57', 'Sai size', 'cuongduc@gmail.com', '0352575133', '3', '1', 'duccuong', '9');
+			INSERT INTO `datn_ud11`.`change_product` (`date_change`, `description`, `email`, `phone`, `quantity_product_change`, `status`, `username`, `id_bill_detail`) VALUES ('2023-08-17 08:37:27', 'Sai Kiểu dáng', 'cuongduc@gmail.com', '0352575133', '4', '1', 'duccuong', '10');
+
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_product_change`) VALUES ('https://res.cloudinary.com/dcll6yp9s/video/upload/v1692235959/c202a2cae1893315d8bccb24fd1e34b816/ow0x2gejjlqn079gghdn.mp4', '1');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_product_change`) VALUES ('https://res.cloudinary.com/dcll6yp9s/video/upload/v1692236014/c202a2cae1893315d8bccb24fd1e34b816/dzhrvizh2gdqaaazqaf0.mp4', '2');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_product_change`) VALUES ('https://res.cloudinary.com/dcll6yp9s/video/upload/v1692236062/c202a2cae1893315d8bccb24fd1e34b816/wqo7ggid9ex6fkyxkrnl.mp4', '3');
+            INSERT INTO `datn_ud11`.`images` (`url_image`, `id_product_change`) VALUES ('https://res.cloudinary.com/dcll6yp9s/video/upload/v1692236096/c202a2cae1893315d8bccb24fd1e34b816/rzq8khip12sc3c5mqygl.mp4', '4');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_product_change`) VALUES ('https://res.cloudinary.com/dcll6yp9s/video/upload/v1692236220/c202a2cae1893315d8bccb24fd1e34b816/o0nczhgrngi3ml5gf6of.mp4', '5');
+			INSERT INTO `datn_ud11`.`images` (`url_image`, `id_product_change`) VALUES ('https://res.cloudinary.com/dcll6yp9s/video/upload/v1692236250/c202a2cae1893315d8bccb24fd1e34b816/ardxgtoddjlshuuf4fvb.mp4', '6');
+
+	       	UPDATE `datn_ud11`.`bill` SET `total_money` = '20063000.00' WHERE (`id_bills` = '11');
+		    UPDATE `datn_ud11`.`bill` SET `total_money` = '20471700.00' WHERE (`id_bills` = '12');
+	    	UPDATE `datn_ud11`.`bill` SET `total_money` = '18257150.00' WHERE (`id_bills` = '13');
+		    UPDATE `datn_ud11`.`bill` SET `total_money` = '22176400.00' WHERE (`id_bills` = '14');
+		    UPDATE `datn_ud11`.`bill` SET `total_money` = '22189850.00' WHERE (`id_bills` = '16');
+	    	UPDATE `datn_ud11`.`bill` SET `total_money` = '28952500.00' WHERE (`id_bills` = '17');
+		    UPDATE `datn_ud11`.`bill` SET `total_money` = '32304750.00' WHERE (`id_bills` = '18');
+	    	UPDATE `datn_ud11`.`bill` SET `user_confirm` = 'quantaph14262' WHERE (`id_bills` = '16');
+		    UPDATE `datn_ud11`.`bill` SET `user_confirm` = 'quantaph14262' WHERE (`id_bills` = '17');
+	    	UPDATE `datn_ud11`.`bill` SET `user_confirm` = 'quantaph14262' WHERE (`id_bills` = '18');
+
+	    	UPDATE `datn_ud11`.`bill` SET `time_receive` = NULL WHERE (`id_bills` = '11');
+	    	UPDATE `datn_ud11`.`bill` SET `time_receive` = NULL WHERE (`id_bills` = '12');
+	    	UPDATE `datn_ud11`.`bill` SET `time_receive` = NULL WHERE (`id_bills` = '13');
+	    	UPDATE `datn_ud11`.`bill` SET `time_receive` = NULL WHERE (`id_bills` = '14');
